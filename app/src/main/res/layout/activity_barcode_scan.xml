@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BarcodeScanActivity">
+     <SurfaceView
+         android:id="@+id/surfaceView"
+         android:layout_width="match_parent"
+         android:layout_height="400dp"
+         android:layout_marginTop="50dp"
+         android:layout_marginLeft="25dp"
+         android:layout_marginRight="25dp"
+         android:layout_alignParentStart="true"
+
+         />
+    <TextView
+        android:id="@+id/tvQRDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        />
+<Button
+    android:id="@+id/tvScan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SCAN"
+    android:textSize="26sp"
+    android:padding="10dp"
+    android:layout_marginTop="30dp"
+
+    />
+
+</LinearLayout>
